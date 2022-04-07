@@ -37,9 +37,6 @@ Exemplu aplicare pe un Text()
 
 <img width="678" alt="AnyView(CompleteProfileView())," src="https://user-images.githubusercontent.com/56347575/162230775-57458ef2-ba67-425e-ac10-92318534cc1b.png">
 
-
-Mai departe pentru chestii specifice cititi voi ce modifieri default puteti folosi/inlantui. 
-
 Keep in mind: CONTEAZA **ORDINEA** IN CARE SUNT SCRISI
 
 Useful struct : GeometryReader
