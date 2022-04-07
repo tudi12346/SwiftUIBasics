@@ -39,7 +39,8 @@ Exemplu aplicare pe un Text()
 
 
 Mai departe pentru chestii specifice cititi voi ce modifieri default puteti folosi/inlantui. 
-Keep in mind CONTEAZA ORDINEA IN CARE SUNT SCRISI
+
+Keep in mind: CONTEAZA **ORDINEA** IN CARE SUNT SCRISI
 
 Useful struct : GeometryReader
 	
