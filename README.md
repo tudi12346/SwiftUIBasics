@@ -22,7 +22,7 @@ este acelasi lucru cu
 Bonus: pentru management view-uri folosind stack uri 
 	https://swdevnotes.com/swift/2021/layout-stacks-swiftui/ 
 
-- pentru UI repetitiv cleanest way(parerea mea) sunt **view modifierii**. 
+- pentru UI repetitiv cleanest way(parerea mea) sunt **view modifierii***(strict pentru modificarea aspectului). 
 
 Exemplu:
 Definesti un ViewModifier cu schimbarile pe care vrei sa le faci .
