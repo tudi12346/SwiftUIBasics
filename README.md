@@ -51,5 +51,35 @@ Folosire:
 Keep in mind: CONTEAZA **ORDINEA** IN CARE SUNT SCRISI
 
 Useful struct : GeometryReader
+
+Basics: 
+
+https://www.hackingwithswift.com/quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader
+
+Advanced: 
+
+https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader
 	
+
+## Passing data between views + Observing changes
+
+INTRO: [Value types vs Reference types](https://www.codementor.io/blog/value-vs-reference-6fm8x0syje) (este si o intrebare comuna la interviuri) 
+
+Property wrappers
+
+@State -> muta proprietatea intr-un shared storage manageuit de SwiftUI, pentru a pastra informatia stocata( cand se distruge / construieste din nou view-ul) Schimbarile acestei proprietati marcata ca @State updateaza view ul. Poate fi trimis si unui child view, iar acesta o sa raspunda si el la schimbari. Totusi, Child View ul nu poate modifica valoarea.
+
+[@Binding](https://developer.apple.com/documentation/swiftui/binding) -> Se foloseste pentru a trimite informatia de la o proprietate State catre un Child View, dar in varianta asta Child View ul poate modifica valoarea. Ca sa trimiti o proprietate State dintr-un View ca si binding intr-un alt view: prefix cu $ la numele variabilei(accesezi projectedValue). 
+
+Exemplu Binding si State foarte bun in [documentatia Apple](https://developer.apple.com/documentation/swiftui/state)
+
+@StateObject si  @ObservedObject
+
+Ambii wrapperi sunt folositi pentru a observa obiecte de tip ObservableObject. Pentru a notifica UI-ul despre schimbarile care se fac la nivelul obiectelor, proprietatile lor trebuie marcate cu @Published. 
+
+<img width="500" alt="Screenshot 2022-04-07 at 18 26 50" src="https://user-images.githubusercontent.com/56347575/162695857-7d28ee2b-c949-458e-a702-9bc235cd3dc6.png">
+
+Diferentele si similaritatile dintre cei 2 wrapperi sunt prezentate foarte bine in articolul [asta](https://medium.com/geekculture/swiftui-stateobject-and-observedobject-c6640c1bd2fd).
+
+@EnvironmentObject -> Este folosit pentru a distribui obiecte intre mai multe view-uri (fara sa mai fie nevoie sa scriem binding-uri). Ar trebui folosit cand obiectul este accesat/observat de un nr mare de view-uri. Mai multe detalii si exemplu [aici](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views).
 
