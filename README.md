@@ -75,7 +75,7 @@ Exemplu Binding si State foarte bun in [documentatia Apple](https://developer.ap
 
 @StateObject si  @ObservedObject
 
-Ambii wrapperi sunt folositi pentru a observa obiecte de tip ObservableObject. Pentru a notifica UI-ul despre schimbarile care se fac la nivelul obiectelor, proprietatile lor trebuie marcate cu @Published. 
+Ambii wrapperi sunt folositi pentru a observa obiecte de tip ObservableObject. Pentru a notifica UI-ul despre schimbarile care se fac la nivelul obiectelor, proprietatile lor (care influenteaza UI-ul) trebuie marcate cu @Published. 
 
 <img width="500" alt="Screenshot 2022-04-07 at 18 26 50" src="https://user-images.githubusercontent.com/56347575/162695857-7d28ee2b-c949-458e-a702-9bc235cd3dc6.png">
 
