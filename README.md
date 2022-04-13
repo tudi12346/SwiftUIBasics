@@ -83,3 +83,6 @@ Diferentele si similaritatile dintre cei 2 wrapperi sunt prezentate foarte bine 
 
 @EnvironmentObject -> Este folosit pentru a distribui obiecte intre mai multe view-uri (fara sa mai fie nevoie sa scriem binding-uri). Ar trebui folosit cand obiectul este accesat/observat de un nr mare de view-uri. Mai multe detalii si exemplu [aici](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views).
 
+## Very useful resource for animations
+
+https://github.com/amosgyamfi/swiftui-animation-library
