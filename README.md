@@ -86,3 +86,7 @@ Diferentele si similaritatile dintre cei 2 wrapperi sunt prezentate foarte bine 
 ## Very useful resource for animations
 
 https://github.com/amosgyamfi/swiftui-animation-library
+
+## Managing loading states
+
+https://www.swiftbysundell.com/articles/handling-loading-states-in-swiftui/
