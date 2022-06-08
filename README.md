@@ -90,3 +90,7 @@ https://github.com/amosgyamfi/swiftui-animation-library
 ## Managing loading states
 
 https://www.swiftbysundell.com/articles/handling-loading-states-in-swiftui/
+
+## Using List view
+
+https://peterfriese.dev/posts/swiftui-listview-part2/
